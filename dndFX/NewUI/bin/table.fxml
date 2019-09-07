@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane opacity="0.98" prefHeight="293.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableControll">
+   <children>
+      <ButtonBar layoutX="55.0" layoutY="96.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="btnSubmit" mnemonicParsing="false" onAction="#login" text="Submit" textFill="#d78080" wrapText="true" />
+        </buttons>
+      </ButtonBar>
+      <TextField fx:id="userNameTxt" layoutX="110.0" layoutY="71.0" promptText="userName" />
+   </children>
+</AnchorPane>
